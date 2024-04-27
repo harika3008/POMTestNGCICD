@@ -56,7 +56,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>testngParallel.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
