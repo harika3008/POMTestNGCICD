@@ -6,6 +6,8 @@
     <test name = "TestScript">
         <classes>
             <class name = "com.personal.saucedemo.tests.LoginToApplicationWithInvalidCredentials" />
+            <class name = "com.personal.saucedemo.tests.LoginToApplication" />
+
         </classes>
     </test>
 </suite>
