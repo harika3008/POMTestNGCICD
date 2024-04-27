@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+    <suite name="Parallel Test Suite" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    </listeners>
+    <test name = "TestScript">
+        <classes>
+            <class name = "com.personal.saucedemo.tests.LoginToApplicationWithInvalidCredentials" />
+        </classes>
+    </test>
+</suite>

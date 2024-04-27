@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Simple HTML-XML Suite">
+    <listeners>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    </listeners>
+    <test name = "Simple HTML-XML test">
+        <classes>
+            <class name = "com.personal.saucedemo.tests.LoginToApplication" />
+            <class name = "com.personal.saucedemo.tests.LoginToApplicationWithInvalidCredentials" />
+        </classes>
+    </test>
+</suite>
